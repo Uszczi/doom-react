@@ -22,11 +22,19 @@ export default function ListMaps() {
   }, []);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return (
+      <div className="grid justify-center items-center h-screen">
+        <p>Loading...</p>;
+      </div>
+    );
   }
 
   if (error) {
-    return <p>Error: {error.message}</p>;
+    return (
+      <div className="grid justify-center items-center h-screen">
+        <p>Error: {error.message}</p>
+      </div>
+    );
   }
 
   return (
