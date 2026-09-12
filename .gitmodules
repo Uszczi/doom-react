@@ -1,0 +1,3 @@
+[submodule "DoomTSEngine"]
+	path = DoomTSEngine
+	url = https://github.com/uszczi/DoomTSEngine
